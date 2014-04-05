@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="-added rspec">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zeroapp.iml" afterPath="$PROJECT_DIR$/.idea/zeroapp.iml" />
     </list>
     <ignored path="zeroapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -416,7 +412,11 @@
       <created>1396730806626</created>
       <updated>1396730806626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-added rspec to the gemfile&#10;">
+      <created>1396731730425</created>
+      <updated>1396731730425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -459,7 +459,8 @@
     <MESSAGE value="changed sqlite3 to only be in dev env 2nd time&#10;" />
     <MESSAGE value="changed sqlite3 to only be in dev env 3rd time&#10;" />
     <MESSAGE value="added a static page for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a static page for testing" />
+    <MESSAGE value="-added rspec to the gemfile&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-added rspec to the gemfile&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
