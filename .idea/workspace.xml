@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="changed sqlite3 to only be in dev env 3rd time&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/hello.html" />
+    <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="-added rspec">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zeroapp.iml" afterPath="$PROJECT_DIR$/.idea/zeroapp.iml" />
     </list>
     <ignored path="zeroapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +34,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="3" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1062">
+            <state line="21" column="26" selection-start="432" selection-end="432" vertical-scroll-proportion="-11.84" vertical-offset="82" max-vertical-offset="1080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="static_pages_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.12857144" vertical-offset="0" max-vertical-offset="980">
               <folding />
             </state>
           </provider>
@@ -38,7 +52,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1242">
+            <state line="26" column="21" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1278">
               <folding />
             </state>
           </provider>
@@ -62,11 +76,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hello.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/hello.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="0.15110178" vertical-offset="0" max-vertical-offset="953">
-              <folding />
+            <state line="8" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
+              <folding>
+                <marker date="1396730618808" expanded="true" signature="21:136" placeholder="..." />
+                <marker date="1396730618808" expanded="true" signature="32:76" placeholder="..." />
+                <marker date="1396730618808" expanded="true" signature="87:128" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,11 +121,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/public/hello.html" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -218,6 +236,10 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: zeroapp">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -301,6 +323,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -370,13 +412,18 @@
       <created>1395513605386</created>
       <updated>1395513605386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added a static page for testing">
+      <created>1396730806626</created>
+      <updated>1396730806626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -392,7 +439,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -412,7 +458,8 @@
     </option>
     <MESSAGE value="changed sqlite3 to only be in dev env 2nd time&#10;" />
     <MESSAGE value="changed sqlite3 to only be in dev env 3rd time&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed sqlite3 to only be in dev env 3rd time&#10;" />
+    <MESSAGE value="added a static page for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a static page for testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -495,16 +542,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="3" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1242">
+        <state line="26" column="21" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
@@ -532,7 +572,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="0.15110178" vertical-offset="0" max-vertical-offset="953">
+        <state line="8" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
+          <folding>
+            <marker date="1396730618808" expanded="true" signature="21:136" placeholder="..." />
+            <marker date="1396730618808" expanded="true" signature="32:76" placeholder="..." />
+            <marker date="1396730618808" expanded="true" signature="87:128" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="432" selection-end="432" vertical-scroll-proportion="-11.84" vertical-offset="82" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.12857144" vertical-offset="0" max-vertical-offset="980">
           <folding />
         </state>
       </provider>
