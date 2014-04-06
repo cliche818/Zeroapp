@@ -7,9 +7,14 @@ describe "StaticPages" do
       expect(page).to have_content ('My Trophy Collection')
     end
 
-    it "should have the right title 'Cliche818 | Home'" do
+    it "should have the base title 'Cliche818'" do
       visit '/static_pages/home'
-      expect(page).to have_title('Cliche818 | Home')
+      expect(page).to have_title('Cliche818')
+    end
+
+    it "should not have a custom page title" do
+      visit '/static_pages/home'
+      expect(page).not_to have_title('| Home')
     end
   end
 
