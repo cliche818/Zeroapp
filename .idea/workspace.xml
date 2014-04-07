@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="37" selection-start="370" selection-end="370" vertical-scroll-proportion="0.24502617" vertical-offset="0" max-vertical-offset="955">
+            <state line="12" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="22" selection-start="319" selection-end="319" vertical-scroll-proportion="0.2827225" vertical-offset="0" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -98,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="330" selection-end="330" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="static_pages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,7 +139,6 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/_shim.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/spec/requests/users_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -820,7 +821,11 @@
       <created>1396869973788</created>
       <updated>1396869973788</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="try a config setting to see if css works on heroku with rails 4">
+      <created>1396870847790</created>
+      <updated>1396870847790</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -899,7 +904,8 @@
     <MESSAGE value="use _path instead of hardcoded strings for link_to's" />
     <MESSAGE value="refactored static_pages spec&#10;" />
     <MESSAGE value="added a sign up page for users, replaced all users" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a sign up page for users, replaced all users" />
+    <MESSAGE value="try a config setting to see if css works on heroku with rails 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="try a config setting to see if css works on heroku with rails 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1086,13 +1092,6 @@
         <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="12" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
@@ -1219,7 +1218,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="370" selection-end="370" vertical-scroll-proportion="0.24502617" vertical-offset="0" max-vertical-offset="955">
+        <state line="12" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="319" selection-end="319" vertical-scroll-proportion="0.2827225" vertical-offset="0" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
