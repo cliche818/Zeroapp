@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zeroapp.iws" />
@@ -95,7 +94,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_footer.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="7" column="46" selection-start="232" selection-end="232" vertical-scroll-proportion="0.14350797" vertical-offset="0" max-vertical-offset="878">
@@ -126,10 +125,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="static_pages_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="static_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="25" selection-start="48" selection-end="48" vertical-scroll-proportion="0.036734693" vertical-offset="0" max-vertical-offset="1134">
+                <state line="48" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.8816326" vertical-offset="0" max-vertical-offset="1242">
                   <folding />
                 </state>
               </provider>
@@ -168,9 +167,9 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       </list>
     </option>
   </component>
@@ -841,7 +840,11 @@
       <created>1396868654142</created>
       <updated>1396868654142</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="use _path instead of hardcoded strings for link_to's">
+      <created>1396868845578</created>
+      <updated>1396868845578</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -917,7 +920,8 @@
     <MESSAGE value="-added contact page&#10;-fixed custom.css.scss" />
     <MESSAGE value="renamed about view page" />
     <MESSAGE value="changed routes (removed static_pages from url)" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed routes (removed static_pages from url)" />
+    <MESSAGE value="use _path instead of hardcoded strings for link_to's" />
+    <option name="LAST_COMMIT_MESSAGE" value="use _path instead of hardcoded strings for link_to's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1216,14 +1220,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="35" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="48" selection-end="48" vertical-scroll-proportion="0.036734693" vertical-offset="0" max-vertical-offset="1134">
+        <state line="4" column="2" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>
@@ -1238,6 +1235,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="46" selection-start="232" selection-end="232" vertical-scroll-proportion="0.14350797" vertical-offset="0" max-vertical-offset="878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.8816326" vertical-offset="0" max-vertical-offset="1242">
           <folding />
         </state>
       </provider>
