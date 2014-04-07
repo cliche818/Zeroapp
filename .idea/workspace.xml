@@ -38,7 +38,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="50" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.8858639" vertical-offset="0" max-vertical-offset="1548">
+            <state line="27" column="0" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.5089005" vertical-offset="0" max-vertical-offset="1548">
               <folding />
             </state>
           </provider>
@@ -833,7 +833,11 @@
       <created>1396871445267</created>
       <updated>1396871445267</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="go back to first fix, production.rb actually had the config and set it wrongly...">
+      <created>1396872024372</created>
+      <updated>1396872024372</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -915,7 +919,8 @@
     <MESSAGE value="try a config setting to see if css works on heroku with rails 4" />
     <MESSAGE value="trying a gem for css fix on heroku" />
     <MESSAGE value="needed gemfile.lock after bundle install to deploy to heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="needed gemfile.lock after bundle install to deploy to heroku" />
+    <MESSAGE value="go back to first fix, production.rb actually had the config and set it wrongly..." />
+    <option name="LAST_COMMIT_MESSAGE" value="go back to first fix, production.rb actually had the config and set it wrongly..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1235,7 +1240,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="50" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.8858639" vertical-offset="0" max-vertical-offset="1548">
+        <state line="27" column="0" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.5089005" vertical-offset="0" max-vertical-offset="1548">
           <folding />
         </state>
       </provider>
