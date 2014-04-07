@@ -14,7 +14,7 @@ describe "StaticPages" do
 
     it "should not have a custom page title" do
       visit '/static_pages/home'
-      expect(page).not_to have_title('| Home')
+      expect(page).not_to have_title('Cliche818| Home')
     end
   end
 
@@ -43,4 +43,15 @@ describe "StaticPages" do
   end
 
 
+  describe "Contact page" do
+    it "should have the content 'Contact Me'" do
+      visit '/static_pages/contact'
+      expect(page).to have_content('Contact Me')
+    end
+
+    it "should have the right title 'Cliche818 | Contact Me'" do
+      visit '/static_pages/contact'
+      expect(page).to have_title('Cliche818 | Contact Me')
+    end
+  end
 end
