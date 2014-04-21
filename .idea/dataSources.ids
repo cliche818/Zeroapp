@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails zeroapp: development" uuid="2e87f51a-b195-485b-98ce-6928bf8abdb2">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails zeroapp: test" uuid="9cbd35a3-edb6-427d-aa82-2d387812b1fc">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails zeroapp: cucumber" uuid="64e4aea9-1c8e-446e-9122-6c208b61a487">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
