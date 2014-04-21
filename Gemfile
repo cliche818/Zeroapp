@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
@@ -11,6 +12,10 @@ group :development do
   gem 'guard-rspec'
 end
 
+group :test do
+  gem 'factory_girl_rails', '4.2.1'
+end
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
@@ -19,7 +24,7 @@ end
 gem 'bootstrap-sass'
 gem 'sprockets'
 
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt', '~> 3.1.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
