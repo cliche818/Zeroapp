@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
+    <list default="true" id="1a6e1bf7-e817-4f24-9fc0-b28973590e2d" name="Default" comment="finished relationship a user has many followers&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zeroapp.iws" />
@@ -89,7 +87,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="74" selection-start="150" selection-end="150" vertical-scroll-proportion="0.05778491" vertical-offset="0" max-vertical-offset="954">
+            <state line="29" column="28" selection-start="884" selection-end="884" vertical-scroll-proportion="0.8378812" vertical-offset="0" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -1034,7 +1032,11 @@
       <created>1398158749788</created>
       <updated>1398158749788</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="finished relationship a user has many followers">
+      <created>1398163152932</created>
+      <updated>1398163152932</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1074,7 +1076,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="adding static_pages_helper" />
     <MESSAGE value="added some css to the static home page" />
     <MESSAGE value="added bootstrap framework to the blog" />
     <MESSAGE value="Added new layout for homepage&#10;" />
@@ -1099,7 +1100,8 @@
     <MESSAGE value="added pages for showing users (30 per page)" />
     <MESSAGE value="removed a typo in the home page" />
     <MESSAGE value="started to implement a follower and followee relationship (both are users)" />
-    <option name="LAST_COMMIT_MESSAGE" value="started to implement a follower and followee relationship (both are users)" />
+    <MESSAGE value="finished relationship a user has many followers" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished relationship a user has many followers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1471,7 +1473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="74" selection-start="150" selection-end="150" vertical-scroll-proportion="0.05778491" vertical-offset="0" max-vertical-offset="954">
+        <state line="29" column="28" selection-start="884" selection-end="884" vertical-scroll-proportion="0.8378812" vertical-offset="0" max-vertical-offset="954">
           <folding />
         </state>
       </provider>
