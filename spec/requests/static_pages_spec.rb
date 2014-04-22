@@ -1,6 +1,9 @@
 require 'spec_helper'
 
 describe "StaticPages" do
+
+  subject { page }
+
   describe "home page" do
     before do
       visit root_path
@@ -15,7 +18,7 @@ describe "StaticPages" do
     end
 
     it "should not have a custom page title" do
-      expect(page).not_to have_title('Cliche818| Home')
+      expect(page).not_to have_title(full_title('Home'))
     end
 
     describe "for signed-in users" do
@@ -29,8 +32,19 @@ describe "StaticPages" do
 
       it "should render the user's feed" do
         user.feed.each do |item|
-          expect(page). to have_selector("li##{item.id}", text: item.content)
+          expect(page).to have_selector("li##{item.id}", text: item.content)
         end
+      end
+
+      describe "follower/following counts" do
+        let(:other_user) { FactoryGirl.create(:user) }
+        before do
+          other_user.follow!(user)
+          visit root_path
+        end
+
+        it { should have_link("0 following", href: following_user_path(user)) }
+        it { should have_link("1 followers", href: followers_user_path(user)) }
       end
     end
   end
@@ -45,7 +59,7 @@ describe "StaticPages" do
     end
 
     it "should have the right title 'Cliche818 | Help'" do
-      expect(page).to have_title('Cliche818 | Help')
+      expect(page).to have_title(full_title('Help'))
     end
   end
 
@@ -59,7 +73,7 @@ describe "StaticPages" do
     end
 
     it "should have the right title 'Cliche818 | About'" do
-      expect(page).to have_title('Cliche818 | About')
+      expect(page).to have_title(full_title('About'))
     end
   end
 
@@ -73,7 +87,7 @@ describe "StaticPages" do
     end
 
     it "should have the right title 'Cliche818 | Contact Me'" do
-      expect(page).to have_title('Cliche818 | Contact Me')
+      expect(page).to have_title(full_title('Contact Me'))
     end
   end
 end
